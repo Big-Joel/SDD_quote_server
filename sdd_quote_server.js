@@ -20,3 +20,4 @@ var server = net.createServer(function(socket) {
 });
 
 server.listen(2768, '162.243.67.131');
+//Add to PM2: pm2 start ./sdd_quote_server.js --name SDD_quote_server
